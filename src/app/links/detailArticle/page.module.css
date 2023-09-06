@@ -1,0 +1,23 @@
+.confirmBtn {
+  padding: 16px;
+  border-radius: 8px;
+  border: solid #487F69;
+  background-color: #487F69;
+  color: white;
+  font-size: 14;
+  font-weight: 400;
+}
+
+.main {
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0px 16px;
+}
+
+.text {
+  font-size: 14;
+}

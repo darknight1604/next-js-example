@@ -1,0 +1,13 @@
+{
+    "signin_greeting": "Chào mừng bạn đến với S3D",
+    "common": {
+        "close": "Đóng"
+    },
+    "deep_link": {
+        "open_application": "Mở ứng dụng",
+        "not_support_web_version": "Ứng dụng hiện không hỗ trợ phiên bản Web.",
+        "redirect_description": "Vui lòng chọn",
+        "redirect_description_end": "để có trải nghiệm tốt nhất",
+        "not_found_article": "Bài viết không tồn tại. Vui lòng thử lại sau"
+    }
+}
