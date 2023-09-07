@@ -44,9 +44,9 @@ export default function Template({ children }) {
             {children}    
             {dict != null && <div className={styles.main}>
                 <Image
-                    src="/not-support.jpg"
-                    width={300}
-                    height={200}
+                    src="/ic_warning.png"
+                    width={20}
+                    height={20}
                     alt="not-support"
                     placeholder="blur"
                     priority
