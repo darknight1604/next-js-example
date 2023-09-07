@@ -1,11 +1,21 @@
+"use client"
+
+import { useEffect, useState } from 'react';
 import styles from './page.module.css'
-import Link from 'next/link'
+import { getDictionary } from '@/lib/utils/dictionaries';
 
 export default function Home() {
-  const href = "/links/detailArticle";
+  const [dict, setDict] = useState(null);
+  
+  useEffect(() => {
+    const getDict = async () => {
+      return await getDictionary("vi");
+    }
+    getDict().then((value) => setDict(value));
+  }, [dict]);
   return (
     <main className={styles.main}>
-      <center><Link href={href}>Detail Article</Link></center>
+      { dict != null && <span style={{ textAlign: "center" }}>{dict.signin_greeting}</span> }
     </main>
   )
 }
