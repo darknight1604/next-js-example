@@ -31,6 +31,7 @@ export default function Template({ children }) {
                         width={300}
                         height={200}
                         alt="not-support"
+                        placeholder="blur"
                     />
                     <p className={styles.text}>{dict.deep_link.not_found_article}</p>
                 </div>}
@@ -47,6 +48,8 @@ export default function Template({ children }) {
                     width={300}
                     height={200}
                     alt="not-support"
+                    placeholder="blur"
+                    priority
                 />
                 <p className={styles.text}>{dict?.deep_link.not_support_web_version}</p>
                 <span style={{ textAlign: "center" }}>
