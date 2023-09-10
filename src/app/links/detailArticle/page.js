@@ -22,6 +22,9 @@ export async function generateMetadata({ _, searchParams }, __) {
             ],
             type: type,
         },
+        other: {
+            ["fb:app_id"]: "1618871771955927"
+        }
     }
 }
 
