@@ -19,6 +19,7 @@ export default function Template({ children }) {
     }, [dict]);
 
     const _onClick = () => {
+        setTimeout(() => { window.location = "https://play.google.com/store/apps/details?id=com.spotify.music&hl=vi&gl=US"; }, 100);
         window.location = "ozen://open/links/detailArticle/?articleId=" + articleId;
     }
 
@@ -41,7 +42,7 @@ export default function Template({ children }) {
     }
     return (
         <div>
-            {children}    
+            {children}
             {dict != null && <div className={styles.main}>
                 <Image
                     src="/ic_warning.png"

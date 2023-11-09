@@ -15,8 +15,8 @@ export async function generateMetadata({ _, searchParams }, __) {
             description: description,
             images: [
                 {
-                    // url: searchParams.imageUrl ?? "",
-                    url: "https://dev-meditation.s3.ap-southeast-1.amazonaws.com/photo/2023_10_22_21_27.png",
+                    url: searchParams.imageUrl ?? "",
+                    // url: "https://dev-meditation.s3.ap-southeast-1.amazonaws.com/photo/2023_10_22_21_27.png",
                     width: 800,
                     height: 354,
                 },
